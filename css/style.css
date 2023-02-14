@@ -285,7 +285,7 @@ ul,li{
 	cursor:pointer;
 	border-radius:50%;
 	background:#1c1c1c;
-	display:none;
+	/* display:none; */
 	-webkit-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;

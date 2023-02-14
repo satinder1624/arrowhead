@@ -351,6 +351,7 @@
               method="post"
               action="https://formsubmit.co/d795597834352bee2a771e0dcf2b18ee"
               id="contact-form"
+              enctype="multipart/form-data"
             >
               <input
                 type="hidden"
@@ -412,7 +413,88 @@
                       <option value="default">Choose Your Course</option>
                       <option value="First-aid">First Aid & CPR</option>
                       <option value="security-guard">Security Guard</option>
+                      <option value="security-guard-plus-first-aid-and-cpr">
+                        Security Guard Training + First Aid & CPR
+                      </option>
                     </select>
+                  </div>
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12 col-xs-12">
+                  <div class="group-inner">
+                    <label class="icon-label" for="field-one"
+                      ><span class="fa fa-location-dot"></span
+                    ></label>
+                    <input
+                      id="field-one"
+                      type="text"
+                      name="address"
+                      placeholder="Current Address"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12 col-xs-12">
+                  <div class="group-inner">
+                    <label class="icon-label" for="field-one"
+                      ><span class="fa fa-location-dot"></span
+                    ></label>
+                    <input
+                      id="field-one"
+                      type="text"
+                      name="city"
+                      placeholder="City"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12 col-xs-12">
+                  <div class="group-inner">
+                    <label class="icon-label" for="field-one"
+                      ><span class="fa fa-location-dot"></span
+                    ></label>
+                    <input
+                      id="field-one"
+                      type="text"
+                      name="postalCode"
+                      placeholder="Postal Code"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12 col-xs-12">
+                  <div class="group-inner">
+                    <label class="icon-label" for="field-one"></label>
+                    <input
+                      id="field-one"
+                      type="date"
+                      name="dateOfBirth"
+                      placeholder="Date of Birth"
+                      required
+                      style="
+                        width: 100%;
+                        height: 100%;
+                        border: 1px solid grey;
+                        padding: 0 15px;
+                      "
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                  <div class="group-inner">
+                    <span>Upload your photo ID</span>
+                    <input
+                      id="field-two"
+                      type="file"
+                      name="photoID"
+                      accept="image/png, image/jpeg, image/png"
+                      placeholder="Photo ID"
+                      required
+                    />
                   </div>
                 </div>
 
