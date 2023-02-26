@@ -130,6 +130,12 @@ p{
 	margin:0 auto;
 }
 
+.polices-section{
+	display: flex;
+	justify-content: center;
+	gap: 0.5rem;
+}
+
 .small-container{
 	max-width:680px;
 	margin:0 auto;
