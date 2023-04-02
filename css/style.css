@@ -6116,3 +6116,17 @@ ul,li{
 .team-carousel-section .owl-theme .owl-controls .owl-nav [class*="owl-"]:hover{
 	color:#003862;	
 }
+
+/* credentialLinksTopBar */
+.credentialLinksCollapse{
+	display: none !important;
+}
+
+@media only screen and (max-width: 767px) {
+	.credentialLinksTopBar{
+		display: none !important;
+	}
+	.credentialLinksCollapse {
+		display: block !important;
+	}
+}
